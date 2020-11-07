@@ -73,6 +73,10 @@ public void Replay(View view){
         // do stuff with child view
         child.setImageDrawable(null);
     }
+     activeUser=0;
+    gameRunning = true;
+    for(int i=0;i<9;i++)
+     gameState[i]=-1;
 }
 
 
